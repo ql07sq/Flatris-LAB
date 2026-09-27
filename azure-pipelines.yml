@@ -14,7 +14,7 @@ steps:
 - bash: |
     set -eu
     mkdir -p /home/ql07sq/flatris-lab
-    cp err.log /home/ql07sq/flatris-lab/err.log
+    
     
     echo "Deployment vanaf GitHub geslaagd op $(hostname)"
 displayName: Deploy GitHub-bestand naar Pi
