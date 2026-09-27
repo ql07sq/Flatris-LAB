@@ -14,7 +14,7 @@ steps:
 - bash: |
     set -eu
     mkdir -p /home/ql07sq/github-demo
-    
+    cp err.log /home/ql07sq/github-demo/err.log
     
     echo "Deployment vanaf GitHub geslaagd op $(hostname)"
     
