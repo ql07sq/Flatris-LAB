@@ -1,5 +1,5 @@
 trigger:
-- master
+- main
 
 pr: none
 
@@ -13,8 +13,9 @@ steps:
 
 - bash: |
     set -eu
-    mkdir -p /home/ql07sq/flatris-lab
+    mkdir -p /home/ql07sq/github-demo
     
     
     echo "Deployment vanaf GitHub geslaagd op $(hostname)"
-displayName: Deploy GitHub-bestand naar Pi
+    
+  displayName: Deploy GitHub-bestand naar Pi
